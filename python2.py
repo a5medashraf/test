@@ -4,11 +4,8 @@ def add_numbers(num1, num2):
     # Create NumPy arrays from the input numbers
     arr1 = np.array(num1)
     arr2 = np.array(num2)
-    
-    # Perform the addition
-    result = arr1 + arr2
-    
-    return result
+
+    return arr1 + arr2
 
 # Example usage:
 num1 = 5
